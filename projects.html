@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+       <div class = "nav-container">
+            <a href="documents/Resume_Example.pdf" download="Nina_Hessing_Resume.pdf" id="name" target="_blank" class="no-text-decor hover-increase-size"><h1>Nina Hessing</h1></a>
+            <nav class = "navbar">
+                <ul>
+                    <li><a href="https://www.instagram.com/nina.hessing?igsh=MWZlY2M2OTkxYm0wdg%3D%3D&utm_source=qr" target="_blank" class="hover-increase-size"><img src="svg/instagram.svg"/ width="30px" height="30px" class = "svg"></a></li>
+                    <li><a href="https://github.com/hessingnina" target="_blank" class="hover-increase-size"><img src="svg/github.svg"/ width="30px" height="30px" class = "svg"></a></li>
+                    <li><a href="https://www.linkedin.com/in/nina-hessing/" target="_blank" class="hover-increase-size"><img src="svg/linkedin.svg"/ width="30px" height="30px" class = "svg"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="projects-container2" class="fade-in">
+        <h2>Projects</h2>
+        <label for="tag-select">Select Skill:</label>
+        <select id="tag-select">
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="sql">SQL</option>
+            <option value="c">C</option>
+            <option value="numpy">NumPy</option>
+            <option value="git">Git</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+        <label for="sort-select">Sort:</label>
+        <select id="sort-select">
+            <option value="alphabetically">Alphabetically</option>
+            <option value="date">Newest</option>
+            <option value="popularity">Most Popular</option>
+        </select>
+        <div id="projects2"></div>
+    <script type="text/javascript" src="projects.js"></script>
+</body>
+</html>

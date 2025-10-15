@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Personal Website",
+        "description": "A personal website to showcase my portfolio and blog posts.",
+        "popularity": 75,
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "link": "https://example.com/personal-website",
+        "image": "images/cat1.png",
+        "github": "https://github.com/hessingnina",
+        "date": "2025-10-15"
+    },
+
+    {
+        "title": "Temperature and Humidity Sensors",
+        "description": "A project that got the current temperature and humidity through sensors.",
+        "popularity": 5,
+        "tags": ["C", "SQL"],
+        "link": "https://example.com/personal-website",
+        "image": "images/cat1.png",
+        "github": "https://github.com/hessingnina",
+        "date": "2022-10-15"
+    },
+
+    {
+        "title": "Temperature and Humidity Sensors",
+        "description": "A project that got the current temperature and humidity through sensors.",
+        "popularity": 5,
+        "tags": ["C", "SQL"],
+        "link": "https://example.com/personal-website",
+        "image": "images/cat1.png",
+        "github": "https://github.com/hessingnina",
+        "date": "2022-10-15"
+    },
+
+    {
+        "title": "Abbaaaa",
+        "description": "A project that got the current temperature and humidity through sensors.",
+        "popularity": 2,
+        "tags": ["C", "SQL"],
+        "link": "https://example.com/personal-website",
+        "image": "images/cat1.png",
+        "github": "https://github.com/hessingnina",
+        "date": "2022-10-15"
+    },
+    
+    {
+        "title": "Ball",
+        "description": "Note that that browser support for these values is nuanced. For example, space-between never got support from some versions of Edge, and start/end/left/right aren’t in Chrome yet. MDN has detailed charts. The safest values are flex-start, flex-end, and center.here are also two additional keywords you can pair with these values: safe and unsafe. Using safe ensures that however you do this type of positioning, you can’t push an element such that it renders off-screen (e.g. off the top) in such a way the content can’t be scrolled too (called “data loss”).",
+        "popularity": 100,
+        "tags": ["C", "SQL"],
+        "link": "https://example.com/personal-website",
+        "image": "images/cat1.png",
+        "github": "https://github.com/hessingnina",
+        "date": "2022-10-15"
+    }
+]
